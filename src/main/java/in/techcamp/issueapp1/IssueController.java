@@ -1,4 +1,4 @@
-package in.techcamp.issueapp;
+package in.techcamp.issueapp1;
 
 import lombok.AllArgsConstructor;
 import org.springframework.boot.Banner;
@@ -41,7 +41,7 @@ public class IssueController {
     }
 
     @PostMapping("/issues/{id}/update")
-    public String updateissue(@PathVariable long id, IssueForm issueForm){
+    public String updateIssue(@PathVariable long id, IssueForm issueForm){
         issueRepository.update(id, issueForm.getTitle(), issueForm.getContent(), issueForm.getPeriod(), issueForm.getImportance());
         return "redirect:/";
     }

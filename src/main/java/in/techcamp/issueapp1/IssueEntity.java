@@ -1,4 +1,4 @@
-package in.techcamp.issueapp;
+package in.techcamp.issueapp1;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

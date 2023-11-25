@@ -1,4 +1,4 @@
-package in.techcamp.issueapp;
+package in.techcamp.issueapp1;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
